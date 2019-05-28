@@ -1,0 +1,45 @@
+{
+  "name": "@truefit/bach-react-material",
+  "version": "0.0.1",
+  "description": "compose your react-material based components in style",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "node tools/build.js",
+    "prepare": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:TrueFit/bach-react-material.git"
+  },
+  "author": "Josh Gretz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TrueFit/bach-react-material/issues"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "homepage": "https://github.com/TrueFit/bach-react-material#readme",
+  "dependencies": {
+    "@material-ui/styles": "^4.0.1",
+    "@truefit/bach": "^0.1.18",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.3.0",
+    "eslint-plugin-import": "^2.17.3",
+    "eslint-plugin-react": "^7.13.0",
+    "eslint-plugin-react-hooks": "^1.6.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.17.1",
+    "shelljs": "^0.8.3"
+  }
+}
