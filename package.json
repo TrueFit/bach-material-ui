@@ -1,6 +1,6 @@
 {
   "name": "@truefit/bach-material-ui",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "compose your material-ui based components in style",
   "main": "lib/index.js",
   "scripts": {

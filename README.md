@@ -51,10 +51,10 @@ export default compose(
       flexDirection: 'column',
     },
     h1: {
-      color: theme.palette.primary,
+      color: theme.palette.primary.main,
     },
     h2: {
-      color: theme.palette.secondary,
+      color: theme.palette.secondary.main,
       fontSize: ({fontSize}) => fontSize,
     },
     button: {
