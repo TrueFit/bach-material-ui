@@ -2,16 +2,17 @@ import {makeStyles} from '@material-ui/styles';
 import {PROPS} from '@truefit/bach';
 import {CLASSES} from '../util/constants';
 
-export default (createStyles, classesName = CLASSES) => ({
+export default (createStyles, options = {}, classesName = CLASSES) => ({
   generateNewVariable,
 }) => {
-  const createStylesAlias = generateNewVariable();
+  const useStylesAlias = generateNewVariable();
+  const useStyles = makeStyles(createStyles, options);
+
   return {
     dependencies: {
-      makeStyles,
-      [createStylesAlias]: createStyles,
+      [useStylesAlias]: useStyles,
     },
-    initialize: `const ${classesName} = makeStyles(${createStylesAlias})(${PROPS});`,
+    initialize: `const ${classesName} = ${useStylesAlias}(${PROPS});`,
     props: [classesName],
   };
 };
