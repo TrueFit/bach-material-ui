@@ -1,7 +1,7 @@
 {
-  "name": "@truefit/bach-react-material",
+  "name": "@truefit/bach-material-ui",
   "version": "0.0.2",
-  "description": "compose your react-material based components in style",
+  "description": "compose your material-ui based components in style",
   "main": "lib/index.js",
   "scripts": {
     "compile": "node tools/build.js",
@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:TrueFit/bach-react-material.git"
+    "url": "git@github.com:TrueFit/bach-material-ui.git"
   },
   "author": "Josh Gretz",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TrueFit/bach-react-material/issues"
+    "url": "https://github.com/TrueFit/bach-material-ui/issues"
   },
   "browserslist": [
     "defaults"
   ],
-  "homepage": "https://github.com/TrueFit/bach-react-material#readme",
+  "homepage": "https://github.com/TrueFit/bach-material-ui#readme",
   "dependencies": {
     "@material-ui/styles": "^4.0.1",
     "@truefit/bach": "^0.1.18",
