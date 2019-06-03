@@ -4,6 +4,18 @@ This library connects components composed with [@truefit/bach](https://github.co
 
 *This library is based on the hooks found in Material UI 4 and above*
 
+## Installation
+
+```
+npm install @truefit/bach-material-ui
+```
+
+or
+
+```
+yarn add @truefit/bach-material-ui
+```
+
 ## Enhancers
 
 ### withStyles
