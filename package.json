@@ -1,6 +1,6 @@
 {
   "name": "@truefit/bach-material-ui",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "compose your material-ui based components in style",
   "main": "lib/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   ],
   "homepage": "https://github.com/TrueFit/bach-material-ui#readme",
   "dependencies": {
-    "@material-ui/styles": "^4.1.0",
+    "@material-ui/styles": "^4.1.1",
     "@truefit/bach": "^1.0.0",
     "react": "^16.8.6"
   },
