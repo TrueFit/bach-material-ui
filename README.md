@@ -37,7 +37,7 @@ _Example_
 ```
 import React from 'react';
 import {compose, withState, withCallback} from '@truefit/bach';
-import {withStyles} from '@truefit/bach-react-material';
+import {withStyles} from '@truefit/bach-material-ui';
 
 const WithStyles = ({classes, fontSize, increase}) => (
   <div className={classes.container}>
@@ -97,7 +97,7 @@ _Example_
 ```
 import React from 'react';
 import {compose} from '@truefit/bach';
-import {withTheme} from '@truefit/bach-react-material';
+import {withTheme} from '@truefit/bach-material-ui';
 
 const WithStyles = ({theme}) => (
   <div style={{fontSize: theme.fontSize}}>
