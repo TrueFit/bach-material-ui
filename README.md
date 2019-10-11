@@ -7,13 +7,13 @@ This library connects components composed with [@truefit/bach](https://github.co
 ## Installation
 
 ```
-npm install @truefit/bach-material-ui
+npm install @truefit/bach-material-ui @material-ui/styles
 ```
 
 or
 
 ```
-yarn add @truefit/bach-material-ui
+yarn add @truefit/bach-material-ui @material-ui/styles
 ```
 
 ## Enhancers
