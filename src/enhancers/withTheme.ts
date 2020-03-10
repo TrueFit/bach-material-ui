@@ -1,7 +1,8 @@
 import {useTheme} from '@material-ui/styles';
-import {THEME} from '../util/constants';
+import {EnhancerResult} from '@truefit/bach';
+import {THEME} from '../constants';
 
-export default (themeName = THEME) => () => {
+export default (themeName: string = THEME) => (): EnhancerResult => {
   return {
     dependencies: {
       useTheme,
