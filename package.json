@@ -1,6 +1,6 @@
 {
   "name": "@truefit/bach-material-ui",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "compose your material-ui based components in style",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -29,10 +29,10 @@
   ],
   "homepage": "https://github.com/TrueFit/bach-material-ui#readme",
   "peerDependencies": {
-    "@material-ui/core": "^4.x",
-    "@material-ui/styles": "^4.x",
+    "@material-ui/core": "4.x",
+    "@material-ui/styles": "4.x",
     "@truefit/bach": "2.x",
-    "react": "^16.x"
+    "react": "16.x"
   },
   "devDependencies": {
     "@material-ui/core": "^4.11.0",
